@@ -1,0 +1,168 @@
+﻿@model List<MiPrimeraAplicacionWebConEntityFramework.Models.PaginaCLS>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<button type="button" onclick="Agregar()" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Agregar
+</button>
+<p>
+    @using (Ajax.BeginForm("Filtrar", "", new AjaxOptions
+    {
+        HttpMethod = "POST",
+        UpdateTargetId = "divPagina",
+        InsertionMode = InsertionMode.Replace
+    },new { @id="frmFiltrado"}))
+    {
+        @Html.Label("Ingrese mensaje")
+        @Html.TextBox("mensajeFiltro")
+        <div id="divPagina">
+            @Html.Partial("_TablaPagina", Model)
+        </div>
+
+    }
+</p>
+
+<div class="modal fade" id="exampleModalConfirmacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¿Dese guardar los cambios?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div style="padding:1em">
+                <button type="button" id="btnCerrarConfirmacion" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" onclick="EliminarRegistro()" class="btn btn-info">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            @using (Ajax.BeginForm("Guardar", "Pagina", null, new AjaxOptions
+            {
+                HttpMethod = "POST",
+                OnSuccess = "Guardar",
+                InsertionMode=InsertionMode.Replace,
+                UpdateTargetId="divError"
+            }))
+            {
+                @Html.Hidden("titulo")
+                <div class="modal-body">
+                 
+                    <div>
+                        @Html.Label("Mensaje Link")
+                        @Html.TextBox("mensaje", null, new { @class = "form-control" })
+                    </div>
+                    <div>
+                        @Html.Label("Acciòn")
+                        @Html.TextBox("accion", null, new { @class = "form-control" })
+                    </div>
+                    <div>
+                        @Html.Label("Controlador")
+                        @Html.TextBox("controlador", null, new { @class = "form-control" })
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnClose" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+                <div id="divError"></div>
+            }
+
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    var frmFiltrado = document.getElementById("frmFiltrado");
+    var mensaje = document.getElementById("mensaje");
+    mensaje.onkeyup = function () {
+        $("#frmFiltrado").trigger("submit");
+    }
+    //frmFiltrado.onsubmit = function () {
+    //    $("#frmFiltrado").trigger("submit");
+    //}
+
+
+    function Eliminar(iidpagina) {
+        document.getElementById("titulo").value = iidpagina;
+    }
+
+    function EliminarRegistro() {
+        var iidpagina = document.getElementById("titulo").value;
+
+        $.get("Pagina/EliminarPagina/?iidpagina=" + iidpagina, function (data) {
+            if (data == 1) {
+                alert("Se ejecuto correctamente");
+                $("#frmFiltrado").trigger("submit");
+                document.getElementById("btnCerrarConfirmacion").click();
+            } else {
+                alert("Ocurrio un error")
+            }
+
+        })
+    }
+
+    function Limpiar() {
+        var controles = document.getElementsByClassName("form-control");
+        var control;
+        for (var i = 0; i < controles.length; i++) {
+            control = controles[i];
+            control.value = "";
+
+        }
+
+    }
+
+
+    function Agregar() {
+        Limpiar();
+        document.getElementById("titulo").value = "-1";
+    }
+
+    function Guardar(result) {
+        if (result == "1" || result=="0") {
+            $("#frmFiltrado").trigger("submit");
+            document.getElementById("btnClose").click();
+            alert("Se ejecuto correctamente");
+        } else {
+            if (result == -1) {
+                alert("Ya existe en la base de datos");
+                document.getElementById("divError").innerHTML = "";
+            } else {
+                alert("Ocurrio un error");
+            }
+       }
+    }
+
+    function Editar(idPagina) {
+        Limpiar();
+        $.get("Pagina/recuperarInformacion/?idPagina=" + idPagina, function (data) {
+            document.getElementById("mensaje").value=data.mensaje;
+            document.getElementById("accion").value=data.accion;
+            document.getElementById("controlador").value = data.controlador;
+
+        })
+
+        document.getElementById("titulo").value = idPagina;
+    }
+
+</script>

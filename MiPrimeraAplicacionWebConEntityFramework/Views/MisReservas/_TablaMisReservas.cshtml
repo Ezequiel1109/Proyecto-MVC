@@ -1,0 +1,75 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models;
+@model List<ReservaCLS>
+@{
+    ViewBag.Title = "Index";
+    int c = 1;
+    decimal total = 0;
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Correlativo</th>
+            <th>Lugar Origen</th>
+            <th>Lugar Destino</th>
+            <th>Fecha Viaje</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>SubTotal</th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                @{
+                    string fechaCadena = item.fechaViaje.ToString("yyyy-MM-dd HH:mm");
+                    var subTotal = item.cantidad * item.precio;
+                    total += subTotal;
+                }
+
+                <td>@c</td>
+                <td>@item.lugarOrigen</td>
+                <td>@item.lugarDestino</td>
+                <td>@fechaCadena</td>
+                <td>@item.cantidad</td>
+                <td>
+                    @item.precio
+            </td>
+            <td>@subTotal</td>
+            <td>
+                <button onclick="Eliminar(@item.iidViaje)" class="btn btn-danger
+                     glyphicon glyphicon-trash"></button>
+
+            </td>
+
+
+
+        </tr>
+                        c++;
+
+
+                    }
+
+
+
+
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="6" align="right" style="font-weight:bold">Total</td>
+            <td style="color:black;font-weight:bold " id="lblTotal">@total</td>
+        </tr>
+
+
+    </tfoot>
+
+
+</table>
+

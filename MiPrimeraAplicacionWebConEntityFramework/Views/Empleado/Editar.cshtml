@@ -1,0 +1,118 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models
+@model EmpleadoCLS
+@{
+    ViewBag.Title = "Editar";
+
+    List<SelectListItem> listaSexo = (List<SelectListItem>)ViewBag.listaSexo;
+    List<SelectListItem> listaTipoContrato = (List<SelectListItem>)ViewBag.listaTipoContrato;
+    List<SelectListItem> listaTipoUsuario = (List<SelectListItem>)ViewBag.listaTipoUsuario;
+}
+
+<h2>Editar</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        @using (Html.BeginForm("Editar", "Empleado", FormMethod.Post,new { @id="frmEmpleado"}))
+        {
+
+            <div>
+                @Html.LabelFor(p => p.iidEmpleado)
+                @Html.TextBoxFor(p => p.iidEmpleado, new { @class = "form-control" ,@readOnly=true })
+                @Html.ValidationMessage("iidEmpleado", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(p => p.nombre)
+                @Html.TextBoxFor(p => p.nombre, new { @class = "form-control" })
+                @Html.ValidationMessage("nombre", new { @class = "text-danger" })
+                @if(Model!=null && Model.mensajeError != null)
+                {
+                   @Html.Label(Model.mensajeError, new { @class="text-danger"})
+                    
+                }
+             </div>
+
+            <div>
+                @Html.LabelFor(p => p.apPaterno)
+                @Html.TextBoxFor(p => p.apPaterno, new { @class = "form-control" })
+                @Html.ValidationMessage("apPaterno", new { @class = "text-danger" })
+            </div>
+
+
+            <div>
+                @Html.LabelFor(p => p.apMaterno)
+                @Html.TextBoxFor(p => p.apMaterno, new { @class = "form-control" })
+                @Html.ValidationMessage("apMaterno", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(p => p.fechaContrato)
+                @Html.EditorFor(p => p.fechaContrato, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessage("fechaContrato", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(p => p.sueldo)
+                @Html.TextBoxFor(p => p.sueldo, new { @class = "form-control" })
+                @Html.ValidationMessage("sueldo", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(p => p.iidtipoUsuario)
+                @Html.DropDownList("iidtipoUsuario", listaTipoUsuario, null, new { @class = "form-control" })
+                @Html.ValidationMessage("sueldo", new { @class = "text-danger" })
+
+            </div>
+
+            <div>
+                @Html.LabelFor(p => p.iidtipoContrato)
+                @Html.DropDownList("iidtipoContrato", listaTipoContrato, null, new { @class = "form-control" })
+                @Html.ValidationMessage("iidtipoContrato", new { @class = "text-danger" })
+
+
+            </div>
+
+
+            <div>
+                @Html.LabelFor(p => p.iidSexo)
+                @Html.DropDownList("iidSexo", listaSexo, null, new { @class = "form-control" })
+                @Html.ValidationMessage("iidSexo", new { @class = "text-danger" })
+
+
+            </div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Guardar
+            </button>
+            @Html.ActionLink("Regresar", "Index", "Empleado", null, new { @class="btn btn-danger"})
+        }
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¿Dese guardar los cambios?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div style="padding:1em">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" onclick="Agregar()" class="btn btn-info">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    function Agregar() {
+        var frmEmpleado = document.getElementById("frmEmpleado");
+        frmEmpleado.submit();
+    }
+
+</script>

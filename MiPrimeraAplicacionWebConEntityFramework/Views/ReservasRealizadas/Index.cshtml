@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MiPrimeraAplicacionWebConEntityFramework.Models.ReservasRealizadasCLS>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Reservas Realizadas</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Id Venta
+        </th>
+        <th>
+            Fecha Venta
+        </th>
+        <th>
+            Total Pagar
+        </th>
+ 
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.iidventa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fechaVenta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total)
+        </td>
+    
+    </tr>
+}
+
+</table>

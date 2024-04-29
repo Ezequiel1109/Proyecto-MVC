@@ -1,0 +1,239 @@
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\ApplicationInsights.config
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\csc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Collections.Immutable.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\vbc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll.config
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.Web.Infrastructure.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.xml
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Razor.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Deployment.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Razor.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Helpers.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Mvc.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.dll
+c:\users\usuario\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.pdb
+C:\Users\USUARIO\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\itextsharp.dll
+C:\Users\USUARIO\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.dll
+C:\Users\USUARIO\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.xml
+C:\Users\USUARIO\documents\visual studio 2015\Projects\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csprojResolveAssemblyReference.cache
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\ApplicationInsights.config
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\csc.exe
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\vbc.exe
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll.config
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.pdb
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.xml
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Razor.resources.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.resources.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Helpers.resources.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Mvc.resources.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csproj.CopyComplete
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\MVC curso\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.pdb
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\ApplicationInsights.config
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\csc.exe
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\vbc.exe
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll.config
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.pdb
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.xml
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Razor.resources.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.resources.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Helpers.resources.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Mvc.resources.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csproj.CopyComplete
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.pdb
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\ApplicationInsights.config
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\csc.exe
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\vbc.exe
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll.config
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\MiPrimeraAplicacionWebConEntityFramework.pdb
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EntityFramework.SqlServer.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\EPPlus.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.Web.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.ApplicationInsights.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Razor.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Deployment.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Webpages.Razor.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Helpers.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\System.Web.Mvc.xml
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Razor.resources.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.resources.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Helpers.resources.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\bin\es\System.Web.Mvc.resources.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.csproj.CopyComplete
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.dll
+C:\Users\david\OneDrive\Escritorio\cursos udemy\Curso de MVC\MiPrimeraAplicacionWebConEntityFramework\MiPrimeraAplicacionWebConEntityFramework\obj\Debug\MiPrimeraAplicacionWebConEntityFramework.pdb

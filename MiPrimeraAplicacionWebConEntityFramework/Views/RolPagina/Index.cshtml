@@ -1,0 +1,185 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models
+@model List<RolPaginaCLS>
+@{
+    ViewBag.Title = "Index";
+    List<SelectListItem> listaRol = (List<SelectListItem>)ViewBag.listaRol;
+    List<SelectListItem> listaPagina = (List<SelectListItem>)ViewBag.listaPagina;
+}
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+
+<h2>Index</h2>
+<button type="button" onclick="Agregar()" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Agregar
+</button>
+
+@using (Ajax.BeginForm("Filtrar", "", new AjaxOptions
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "divRolPagina",
+    InsertionMode = InsertionMode.Replace,
+    OnSuccess ="Filtrar" ,
+
+}, new { @id = "frmFiltrado" }))
+{
+
+  @Html.DropDownList("iidrolFiltro", listaRol,new { @class="form-control"})
+
+<div id="divRolPagina">
+    @Html.Partial("_TableRolPagina", Model )
+</div>
+}
+
+
+<div class="modal fade" id="exampleModalConfirmacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¿Dese guardar los cambios?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div style="padding:1em">
+                <button type="button" id="btnCerrarConfirmacion" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" onclick="EliminarRegistro()" class="btn btn-info">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            @using (Ajax.BeginForm("Guardar", "RolPagina", null, new AjaxOptions
+            {
+                HttpMethod = "POST",
+                OnSuccess = "Guardar",
+                UpdateTargetId= "divRolPaginaError",
+                InsertionMode=InsertionMode.Replace
+            }))
+            {
+                @Html.Hidden("titulo")
+                <div class="modal-body">
+ 
+                    <div>
+                        @Html.Label("Nombre Rol")
+                        @Html.DropDownList("iidrol", listaRol, new { @class = "form-control" })
+                    </div>
+                    <div>
+                        @Html.Label("Nombre Pagina")
+                        @Html.DropDownList("iidpagina", listaPagina, new { @class = "form-control" })
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnClose" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+                <div id="divRolPaginaError">
+
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+    
+  
+    $('#tablaRolPagina').DataTable();
+
+
+    var iidrol = document.getElementById("iidrolFiltro");
+    iidrol.onchange = function () {
+        $("#frmFiltrado").trigger("submit");
+     
+
+    }
+
+    function Limpiar() {
+        var controles = document.getElementsByClassName("form-control");
+        var control;
+        for (var i = 0; i < controles.length; i++) {
+            control = controles[i];
+            control.value = "";
+
+        }
+
+    }
+
+    function Eliminar(idRolPagina) {
+        document.getElementById("titulo").value = idRolPagina;
+    }
+
+    function EliminarRegistro() {
+        var titulo = document.getElementById("titulo").value;
+
+        $.get("RolPagina/EliminarRolPagina/?iidrolpagina=" + titulo, function (data) {
+
+            if (data == 1) {
+                document.getElementById("btnCerrarConfirmacion").click();
+                alert("Se ejecuto correctamente");
+                $("#frmFiltrado").trigger("submit");
+            } else {
+                alert("Ocurrio un error");
+            }
+
+        })
+
+    }
+
+    function Agregar() {
+        Limpiar();
+        document.getElementById("titulo").value = -1;
+    }
+
+
+    function Editar(idrolpagina) {
+        Limpiar();
+        $.get("RolPagina/recuperarInformacion/?idRolPagina=" + idrolpagina, function (data) {
+            document.getElementById("iidrol").value=data.iidrol;
+            document.getElementById("iidpagina").value = data.iidpagina;
+
+        })
+        document.getElementById("titulo").value = idrolpagina;
+
+
+    }
+
+    function Filtrar() {
+
+    }
+
+   
+
+    function Guardar(rpta) {
+        if (rpta == "1" || rpta=="0") {
+            $("#frmFiltrado").trigger("submit");
+            alert("Se ejecuto correctamente");
+            document.getElementById("btnClose").click()
+        } else {
+            if (rpta == "-1") {
+                alert("Ya existe en la base de datos");
+                document.getElementById("divRolPaginaError").innerHTML = "";
+            }
+            else {
+                alert("Ocurrio un error");
+            }
+            }
+    }
+
+</script>

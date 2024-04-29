@@ -1,0 +1,64 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models
+@model List<MarcaCLS>
+@{
+
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@Html.ActionLink("Agregar","Agregar","Marca",null,new { @class="btn btn-primary"})
+
+@Html.ActionLink("PDF", "generarPDF", "Marca", null, new { @class = "btn btn-primary" ,@target="_blank"})
+
+@Html.ActionLink("XLSX", "generarExcel", "Marca", null, new { @class = "btn btn-primary", @target = "_blank" })
+
+
+@using (Html.BeginForm("Index", "Marca", FormMethod.Post))
+{
+
+@Html.Label("Ingrese nombre marca")
+@Html.TextBox("nombre")
+<input type="submit" class="btn  btn-success"  value="Buscar"/>
+<table class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+            <td width="10%">@Html.LabelFor(p => Model[0].iidmarca)</td>
+            <td width="20%">@Html.LabelFor(p => Model[0].nombre)</td>
+            <td width="60%">@Html.LabelFor(p => Model[0].descripcion)</td>
+            <td width="10%">Operaciones</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.iidmarca</td>
+            <td>@item.nombre</td>
+            <td>@item.descripcion</td>
+            <td>
+                @Html.ActionLink(" ", "Editar", "Marca", new { id = @item.iidmarca }, new { @class = "glyphicon glyphicon-edit btn btn-primary" })
+                @Html.ActionLink(" ", "Eliminar", "Marca", new { id = @item.iidmarca }, new { @class = "glyphicon glyphicon-trash btn btn-danger", @onclick = "eliminar()" })
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+}
+
+<script>
+
+    function eliminar() {
+
+        if (confirm("¿Desea eliminar el registro realmente?") == 1) {
+            //Pone Si
+            alert("Se elimino correctamente");
+        } else {
+            //Pone No
+            event.preventDefault();
+        }
+
+    }
+
+</script>

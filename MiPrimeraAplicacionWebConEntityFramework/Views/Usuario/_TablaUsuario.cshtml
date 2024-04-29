@@ -1,0 +1,38 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models
+@model List<UsuarioCLS>
+
+<table class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+            <th>Id Usuario</th>
+            <th>Nombre Persona</th>
+            <th>Nombre Usuario</th>
+            <th>Nombre Rol</th>
+            <th>Tipo Usuario</th>
+            <th>Operaciones</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.iidusuario</td>
+                <td>@item.nombrePersona</td>
+                <td>@item.nombreusuario</td>
+                <td>@item.nombreRol</td>
+                <td>@item.nombreTipoEmpleado</td>
+                <td>
+                    <button type="button" onclick="Editar(@item.iidusuario)" class="btn btn-primary glyphicon glyphicon-edit" data-toggle="modal" data-target="#exampleModal"></button>
+                    <button type="button" onclick="Eliminar(@item.iidusuario)" class="btn btn-danger glyphicon glyphicon-trash" data-toggle="modal" data-target="#exampleModalConfirmacion"></button>
+                                </td>
+            </tr>
+        }
+
+
+    </tbody>
+
+
+
+</table>

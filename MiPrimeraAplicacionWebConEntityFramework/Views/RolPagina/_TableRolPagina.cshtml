@@ -1,0 +1,48 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models
+@model List<RolPaginaCLS>
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+
+<table class="table table-bordered table-hover" id="tablaRolPagina">
+    <thead>
+        <tr>
+            <td>@Html.LabelFor(p => Model[0].iidrolpagina)</td>
+            <td>@Html.LabelFor(p => Model[0].nombreRol)</td>
+            <td>@Html.LabelFor(p => Model[0].nombreMensaje)</td>
+            <td>Operaciones</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.iidrolpagina</td>
+                <td>@item.nombreRol</td>
+                <td>@item.nombreMensaje</td>
+                <td>
+                    <button type="button" onclick="Editar(@item.iidrolpagina)" class="btn btn-primary glyphicon glyphicon-edit" data-toggle="modal" data-target="#exampleModal">
+                        
+                    </button>
+                    <button type="button" onclick="Eliminar(@item.iidrolpagina)" class="btn btn-danger glyphicon glyphicon-trash" data-toggle="modal" data-target="#exampleModalConfirmacion"></button>
+                </td>
+            </tr>
+
+        }
+
+
+    </tbody>
+
+</table>
+
+
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+
+<script>
+  
+    $('#tablaRolPagina').DataTable();
+
+</script>
+

@@ -1,0 +1,77 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models;
+@model List<ReservaCLS>
+
+
+
+@using (Ajax.BeginForm("Filtrar", "", new AjaxOptions
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "divMisPrestamos",
+    InsertionMode = InsertionMode.Replace
+}, new { @id = "frmListado" }))
+{
+
+    <div id="divMisPrestamos">
+        @Html.Partial("_TablaMisReservas", Model);
+
+    </div>
+
+    <p style="text-align:center">
+        <button class="btn btn-primary" onclick="Grabar()">Grabar</button>
+    </p>
+
+
+}
+
+
+
+
+
+<script>
+
+    function Grabar() {
+
+        if (confirm("Desea guardar la informacion?") == 1) {
+            var total = document.getElementById("lblTotal").innerHTML;
+            if (total == "0") {
+                alert("Debe elegir un viaje para guardar");
+                return;
+            }
+            $.get("MisReservas/GuardarDatos/?total=" + total, function (data) {
+
+                if (data == "OK") {
+                    alert("Se guardo correctamente");
+                    $("#frmListado").trigger("submit");
+                } else {
+                    alert("Ocurrio un error");
+                }
+
+            })
+
+
+        }
+    }
+
+
+    function Eliminar(idViaje) {
+
+        if (confirm("Desea eliminar la reserva?") == 1) {
+
+            var url = "Reserva/Quitarcookie/?idViaje=" + idViaje;
+            $.get(url, function (data) {
+                if (data == "OK") {
+                    alert("Se realizo correctamente");
+                    $("#frmListado").trigger("submit");
+                } else {
+                    alert("Ocurrio un error");
+                }
+            })
+
+
+
+        }
+
+    }
+
+
+</script>

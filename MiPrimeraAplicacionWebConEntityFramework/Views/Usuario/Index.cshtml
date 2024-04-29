@@ -1,0 +1,201 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models
+@model List<UsuarioCLS>
+@{
+    ViewBag.Title = "Index";
+
+    List<SelectListItem> listaPersona = (List<SelectListItem>)ViewBag.listaPersona;
+    List<SelectListItem> listaRol = (List<SelectListItem>)ViewBag.listaRol;
+}
+
+<h2>Index</h2>
+
+<button type="button" onclick="Agregar()" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Agregar
+</button>
+
+@using (Ajax.BeginForm("Filtrar", "Usuario", null,
+                new AjaxOptions
+                {
+                    HttpMethod = "POST",
+                    UpdateTargetId = "divUsuario",
+                    InsertionMode=InsertionMode.Replace
+                },new { @id="frmFiltrado"}))
+{
+
+    @Html.Label("Ingrese nombre de la persona")
+    @Html.TextBox("nombrePersona",null,new { @class = "form-control" })
+
+    <div id="divUsuario">
+        @Html.Partial("_TablaUsuario", Model)
+    </div>
+}
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            @using (Ajax.BeginForm("Guardar", "Usuario", null, new AjaxOptions
+            {
+                HttpMethod = "POST",
+                OnSuccess = "Guardar",
+                InsertionMode=InsertionMode.Replace,
+                UpdateTargetId="divError"
+            }))
+            {
+                @Html.Hidden("titulo")
+                @Html.Hidden("nombrePersonaEnviar")
+                <div class="modal-body">
+
+                    <div>
+                        @Html.Label("Nombre Usuario")
+                        @Html.TextBox("nombreusuario", null, new { @class = "form-control" })
+                    </div>
+                    <div id="divContraOcultar">
+                        @Html.Label("Contraseña")
+                        @Html.Password("contra", null, new { @class = "form-control" })
+                    </div>
+                    <div id="divUsuarioOcultar">
+                        @Html.Label("Nombre Persona")
+                        @Html.DropDownList("iid", listaPersona, new { @class = "form-control" })
+                    </div>
+                    <div>
+                        @Html.Label("Nombre Rol")
+                        @Html.DropDownList("iidrol", listaRol, new { @class = "form-control" })
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnClose" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            }
+            <div id="divError">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModalConfirmacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¿Dese guardar los cambios?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div style="padding:1em">
+                <button type="button" id="btnCerrarConfirmacion" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" onclick="EliminarRegistro()" class="btn btn-info">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+
+
+    function Limpiar() {
+        var controles = document.getElementsByClassName("form-control");
+        var control;
+        for (var i = 0; i < controles.length; i++) {
+            control = controles[i];
+            control.value = "";
+
+        }
+        document.getElementById("divError").innerHTML="";
+    }
+
+    var nombrePersona = document.getElementById("nombrePersona");
+    nombrePersona.onkeyup = function () {
+        $("#frmFiltrado").trigger("submit");
+    }
+
+    function Agregar() {
+        Limpiar();
+        document.getElementById("titulo").value = "-1";
+        document.getElementById("divContraOcultar").style.display = "block";
+        document.getElementById("divUsuarioOcultar").style.display = "block";
+    }
+    var iid = document.getElementById("iid");
+    iid.onchange = function () {
+        document.getElementById("nombrePersonaEnviar").value = iid.options[iid.selectedIndex].text;
+    }
+   
+
+    function Guardar(rpta) {
+
+        if (rpta == "0" || rpta == "1" || rpta == "2") {
+            $("#frmFiltrado").trigger("submit");
+            alert("Se ejecuto correctamente");
+            document.getElementById("btnClose").click();
+        } else {
+
+            if (rpta == "-1") {
+                alert("Ya existe en la base de datos");
+                document.getElementById("divError").innerHTML = "";
+
+            }else
+            alert("Ocurrio un error");
+
+        }
+
+    }
+
+    function Eliminar(iidusuario) {
+
+       
+        document.getElementById("titulo").value = iidusuario;
+
+    }
+
+    function EliminarRegistro() {
+        var iidusuario = document.getElementById("titulo").value;
+
+        $.get("Usuario/Eliminar/?idUsuario=" + iidusuario, function (data) {
+
+            if (data == 1) {
+                $("#frmFiltrado").trigger("submit");
+                alert("Se ejecuto correctamente");
+                document.getElementById("btnCerrarConfirmacion").click();
+            } else {
+                alert("Ocurrio un error");
+            }
+
+        })
+
+    }
+
+    function Editar(id) {
+        Limpiar();
+        $.get("Usuario/recuperarInformacion/?iidusuario=" + id, function (data) {
+            document.getElementById("nombreusuario").value = data.nombreusuario;
+            document.getElementById("iidrol").value = data.iidrol;
+            document.getElementById("contra").value = "1";
+            document.getElementById("iid").value = "1";
+
+        })
+
+
+        document.getElementById("titulo").value = id;
+        document.getElementById("divContraOcultar").style.display = "none";
+        document.getElementById("divUsuarioOcultar").style.display = "none";
+
+
+
+
+    }
+
+</script>

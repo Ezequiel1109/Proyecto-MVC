@@ -1,0 +1,98 @@
+﻿@using MiPrimeraAplicacionWebConEntityFramework.Models
+@model List<ClienteCLS>
+@{
+    ViewBag.Title = "Index";
+    List<SelectListItem> listaSexo = (List<SelectListItem>)ViewBag.lista;
+
+}
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+
+
+
+<h2>Index</h2>
+@Html.ActionLink("Agregar", "Agregar", "Cliente", null, new { @class="btn btn-primary"})
+
+@using (Html.BeginForm("Index","Cliente",FormMethod.Get))
+{
+
+@Html.Label("Ingrese sexo del cliente")
+@Html.DropDownList("iidsexo", listaSexo)
+<input type="submit"  value="Buscar" class="btn btn-success"/>
+<table class="table table-bordered table-hover" id="tablaCliente"  >
+
+    <thead>
+        <tr>
+            <td>@Html.LabelFor(p => Model[0].iidcliente)</td>
+            <td>@Html.LabelFor(p => Model[0].nombre)</td>
+            <td>@Html.LabelFor(p => Model[0].apPaterno)</td>
+            <td>@Html.LabelFor(p => Model[0].apMaterno)</td>
+            <td>@Html.LabelFor(p => Model[0].telefonoFijo)</td>
+            <td>Operaciones</td>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.iidcliente</td>
+                <td>@item.nombre</td>
+                <td>@item.apPaterno</td>
+                <td>@item.apMaterno</td>
+                <td>@item.telefonoFijo</td>
+                <td>
+                    @Html.ActionLink(" ", "Editar", "Cliente", new { id = @item.iidcliente }, new { @class = "glyphicon glyphicon-edit btn btn-primary" })
+                    @*@Html.ActionLink(" ", "Eliminar", "Cliente", new { id = @item.iidcliente }, new { @class = "glyphicon glyphicon-trash btn btn-danger" })*@
+                
+                    <button type="button" onclick="mostrarPopup(@item.iidcliente)" class="glyphicon glyphicon-trash btn btn-danger" data-toggle="modal" data-target="#exampleModal" >
+                        
+                    </button>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+
+</table>
+}
+@using (Html.BeginForm("Eliminar", "Cliente", FormMethod.Post,new { @id = "frmEliminar" }))
+{
+    @Html.Hidden("iidcliente");
+}
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¿Dese guardar los cambios?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div style="padding:1em">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" onclick="Agregar()" class="btn btn-info">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+<script>
+    $('#tablaCliente').DataTable();
+
+    function mostrarPopup(iidcliente) {
+        document.getElementById("iidcliente").value = iidcliente;
+    }
+
+    function Agregar() {
+        var frmEliminar = document.getElementById("frmEliminar");
+        frmEliminar.submit();
+    }
+
+</script>
